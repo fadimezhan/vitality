@@ -1,0 +1,63 @@
+%nav.navbar.navbar-default
+  .container-fluid
+    = image_tag "bull.png"
+    .navbar-header
+      %a.navbar-brand.white{href: "#"}
+        VITALITY
+    / Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      %ul.nav.navbar-nav.navbar-right
+        %li
+          =link_to "About", "#"
+      %ul.nav.navbar-nav.navbar-right
+        %li
+          =link_to "Process", "#"
+      %ul.nav.navbar-nav.navbar-right
+        %li
+          =link_to "Work", "#"
+      %ul.nav.navbar-nav.navbar-right
+        %li
+          =link_to "Pricing", "#"
+      %ul.nav.navbar-nav.navbar-right
+        %li
+          =link_to "Contact", "#"
+
+  .middle
+    = image_tag "bull.png", class: 'big_logo'
+    %h1 VITALITY
+    %hr/
+    %hr.bottom/
+    %p by Start Bootstrap
+    .down_icon
+      = image_tag "down-arrow.svg"
+
+%nav.navbar_features
+  .text
+    %h1 A THEME FOR CREATIVES&AGENCIES
+    %p Vitality is the perfect theme for a freelance proffesional or an agency.
+    %hr/
+    %hr.bottom/
+  .blocks
+    .block_one
+      %span.glyphicon.glyphicon-eye-open{"aria-hidden" => "true"}
+      %h1 RETINA READY
+      %p This theme includes the retina.js plugin for easy retina image support so your images and graphics will look great on mobile devices!
+    .block_two
+      %span.glyphicon.glyphicon-edit{"aria-hidden" => "true"}
+      %h1 EASY TO EDIT
+      %p Vitality is built using Bootstrap 3, and is easy to edit and customize. LESS files are included as well for deeper customization.
+    .block_three
+      %span.glyphicon.glyphicon-phone{"aria-hidden" => "true"}
+      %h1 RESPONSIVE
+      %p When building this theme, we've paid close attention to how it looks on various screen sizes. Try it out on a phone or tablet!
+    .block_four
+      %span.glyphicon.glyphicon-heart{"aria-hidden" => "true"}
+      %h1 BUILT WITH LOVE
+      %p All of our themes are crafted with care, and we strive to make your experience as one of our customers the best as possible.
+
+.our_team
+  .texts
+    %h1#team OUR TEAM
+    %p We are a group of digital marketers with a passion for great art that serves a practical purpose.
+    %hr/
+    %hr.bottom/
